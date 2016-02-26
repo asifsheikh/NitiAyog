@@ -25,9 +25,6 @@ import com.fantastic4.nitiaayog.nitiayog.model.NGO;
 public class Feedback extends AppCompatActivity {
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,9 +41,9 @@ public class Feedback extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent submitintent = new Intent(getBaseContext(),NGODetails.class);
-                submitintent.putExtra(name.getText(),);
-                submitintent.putExtra(email.getText(), );
-                submitintent.putExtra(feedback.getText(), );
+              //  submitintent.putExtra(name.getText(),);
+                //submitintent.putExtra(email.getText(),);
+                //submitintent.putExtra(feedback.getText(), );
                 startActivity(submitintent);
             }
         });

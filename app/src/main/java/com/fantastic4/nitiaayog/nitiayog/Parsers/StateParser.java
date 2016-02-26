@@ -10,7 +10,7 @@ public class StateParser {
    public  static String[] states;
 
     public static final String JSON_ARRAY = "state";
-    public static final String KEY_ID = "id";
+    public static final String KEY_ID = "state";
 
 
     private JSONArray users = null;
